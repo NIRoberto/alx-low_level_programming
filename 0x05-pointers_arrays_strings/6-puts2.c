@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
- * puts2 - function to print even numbr strings 
+ * puts2 - function to print even numbr strings
  * @str: string to be printed
  */
 void puts2(char *str)
@@ -10,7 +10,7 @@ void puts2(char *str)
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		if ((i %= 2) == 0)
+		if ((i % 2) == 0)
 		{
 			putchar(str[i]);
 		}
