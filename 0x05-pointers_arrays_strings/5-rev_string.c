@@ -16,7 +16,7 @@ void rev_string(char *s)
 	{
 		char t = *p1;
 		*p1++ = *p2;
-		*p2 = t;
+		*p2-- = t;
 	}
 }
 
