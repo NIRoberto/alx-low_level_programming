@@ -1,5 +1,5 @@
 #include"main.h"
-
+#include<stdio.h>
 /**
  * puts2 - function to print even numbr strings
  * @str: string to be printed
