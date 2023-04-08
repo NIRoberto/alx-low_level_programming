@@ -5,7 +5,7 @@
  * @s: string inputed in paramenter
  * Return: length of string
  */
-int _strlen(int *s)
+int _strlen(char *s)
 {
 	int len = 0, i = 0;
 
