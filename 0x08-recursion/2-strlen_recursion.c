@@ -5,9 +5,10 @@
 /**
  * _strlen_recursion - function to return the length of a string
  * @s: inputed string to be used
+ * Return: return length of s
  */
 int _strlen_recursion(char *s)
 {
-	return strlen(s);
+	return (strlen(s));
 }
 
