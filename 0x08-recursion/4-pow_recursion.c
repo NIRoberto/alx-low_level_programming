@@ -6,6 +6,7 @@
  * _pow_recursion - function  to compute pow of x to y
  * @x: base
  * @y: power
+ * Return: pow of number
  */
 int _pow_recursion(int x, int y)
 {
